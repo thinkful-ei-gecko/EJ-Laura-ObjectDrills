@@ -130,3 +130,41 @@ Robert.sayHello();
 
 // console.log(findById(scratchData, 28));
 
+const objectA = {
+    id: 2,
+    name: 'Jane Doe',
+    age: 34,
+    city: 'Chicago',
+  };
+  
+  // running the function with `objectB` and `expectedKeys`
+  // should return `false`
+  const objectB = {
+    id: 3,
+    age: 33,
+    city: 'Peoria',
+  };
+  
+  const expectedKeys = ['id', 'name', 'age', 'city'];
+  
+  function validateKeys(object, expectedKeys) {
+    let currentKeys = Object.keys(object);
+
+    if (currentKeys.length !== expectedKeys.length) {
+        return false;
+    }
+    else {
+        for (let i=0; i<currentKeys.length; i++) {
+            if (currentKeys[i] === expectedKeys[i]) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    }
+  }
+
+console.log(validateKeys(objectA, expectedKeys));
+console.log(validateKeys(objectB, expectedKeys));
+

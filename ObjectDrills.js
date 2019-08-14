@@ -42,6 +42,27 @@ function personMaker() {
   return person;
 }
 
+<<<<<<< HEAD
 let character = personMaker();
 console.log(personMaker());
 character.fullName();
+=======
+// let character = personMaker();
+// console.log(character.fullName());
+
+const sampleObj = {
+    foo: 'foo',
+    bar: 'bar',
+    bizz: 'bizz',
+    bang: 'bang',
+  };
+  
+  function keyDeleter(obj) {
+    delete obj.foo;
+    delete obj.bar;
+    return obj;
+  }
+
+  keyDeleter(sampleObj);
+  console.log(sampleObj);
+>>>>>>> e98ea7f7bbc286c2a77bffc505cf012dc6ea3ce1

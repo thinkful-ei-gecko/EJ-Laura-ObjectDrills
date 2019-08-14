@@ -18,15 +18,29 @@ let Robert = createMyObject();
 Robert.sayHello();
 */
 
-function updateObject(obj) {
+// function updateObject(obj) {
 
-    obj.foo = "foo";
-    obj.bar = "bar";
-    obj.bizz = "bizz";
-    obj.bang = "bang";
+//     obj.foo = "foo";
+//     obj.bar = "bar";
+//     obj.bizz = "bizz";
+//     obj.bang = "bang";
 
-    return obj;
-}
+//     return obj;
+// }
 
-let pickle = {} ;
-console.log(updateObject(pickle));
+// let pickle = {} ;
+// console.log(updateObject(pickle));
+
+// function personMaker() {
+//   var person = {
+//     firstName: 'Paul',
+//     lastName: 'Jones',
+//     fullName() {
+//       console.log(`${this.firstName} ${this.lastName}`);
+//     },
+//   };
+//   return person;
+// }
+
+// let character = personMaker();
+// console.log(character.fullName());

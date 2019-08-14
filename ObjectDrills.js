@@ -90,3 +90,32 @@ Robert.sayHello();
 // ];
 
 // console.log(makeStudentReport(data));
+
+
+
+  
+  function enrollInSummerSchool(students) {
+    students.forEach(student =>  student.status = "In summer school");
+    return students;
+  }
+
+  const studentData = [
+    {
+      name: 'Tim',
+      status: 'Current student',
+      course: 'Biology',
+    },
+    {
+      name: 'Sue',
+      status: 'Withdrawn',
+      course: 'Mathematics',
+    },
+    {
+      name: 'Liz',
+      status: 'On leave',
+      course: 'Computer science',
+    },
+  ];
+
+
+console.log(enrollInSummerSchool(studentData));

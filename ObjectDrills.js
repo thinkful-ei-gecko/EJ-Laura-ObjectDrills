@@ -197,27 +197,25 @@ Robert.sayHello();
 
 // console.log(`${food.meals[3]} is the fourth meal.`);
 
-let bigArray = [
-    {
-        name: "Blob",
-        jobTitle: "supervisor"
-    },
-    {
-        name: "Bob1",
-        jobTitle: "peon"
-    },
-    {
-        name: "Bob2",
-        jobTitle: "teacher"
-    },
-    {
-        name: "Bob3",
-        jobTitle: "knight"
-    }
-]
+// let bigArray = [{
+//     name: "Blob",
+//     jobTitle: "supervisor"
+//   },
+//   {
+//     name: "Bob1",
+//     jobTitle: "peon"
+//   },
+//   {
+//     name: "Bob2",
+//     jobTitle: "teacher"
+//   },
+//   {
+//     name: "Bob3",
+//     jobTitle: "knight"
+//   }
+// ]
 
-for (let i=0; i<bigArray.length; i++) {
-  for (let key in obj) {
-    console.log(`${obj[key]}`);
-  }
-}
+// for (let key in Object.keys(bigArray)) {
+//   console.log(`${bigArray[key].name} has a job working as a: ${bigArray[key].jobTitle}`);
+// }
+

@@ -226,3 +226,36 @@ Robert.sayHello();
 //     console.log(`${bigArray[key].jobTitle} ${bigArray[key].name} doesn't report to anybody`);
 //   }
 // }
+
+  
+function decode(string) {
+  let cipher = {
+    a : 2,
+    b : 3,
+    c : 4,
+    d : 5
+  };
+
+  let stringArray = string.split(' ');
+  //console.log(stringArray);
+      
+  let secretMessage = '';
+  
+  for (let i=0; i<stringArray.length; i++) {
+    let firstLetter = stringArray[i][0];
+    let value = cipher[firstLetter];
+
+    if (!value) {
+      secretMessage += " ";
+    }
+    else {
+      secretMessage += stringArray[i][value];
+    }
+  }
+  return console.log(secretMessage);
+}
+
+  
+decode('craft block argon meter bells brown croon droop');
+decode('downy brown blunt group agate aorta bathe igloo drift death blink chest cat!! homes');
+  

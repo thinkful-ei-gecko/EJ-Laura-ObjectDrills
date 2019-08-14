@@ -198,24 +198,31 @@ Robert.sayHello();
 // console.log(`${food.meals[3]} is the fourth meal.`);
 
 // let bigArray = [{
-//     name: "Blob",
-//     jobTitle: "supervisor"
+//     name: "Bob",
+//     jobTitle: "CEO",
+//     boss: true
 //   },
 //   {
-//     name: "Bob1",
-//     jobTitle: "peon"
+//     name: "Fred",
+//     jobTitle: "UX Designer",
+//     boss: false
 //   },
 //   {
-//     name: "Bob2",
-//     jobTitle: "teacher"
+//     name: "Maria",
+//     jobTitle: "Front End",
+//     boss: false
 //   },
 //   {
-//     name: "Bob3",
-//     jobTitle: "knight"
+//     name: "George",
+//     jobTitle: "Back End",
+//     boss: false
 //   }
 // ]
 
 // for (let key in Object.keys(bigArray)) {
-//   console.log(`${bigArray[key].name} has a job working as a: ${bigArray[key].jobTitle}`);
+//   if (bigArray[key].boss !== true) {
+//     console.log(`${bigArray[key].jobTitle} ${bigArray[key].name} reports to ${bigArray[0].name}`);
+//   } else {
+//     console.log(`${bigArray[key].jobTitle} ${bigArray[key].name} doesn't report to anybody`);
+//   }
 // }
-

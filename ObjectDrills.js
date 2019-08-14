@@ -31,16 +31,17 @@ Robert.sayHello();
 // let pickle = {} ;
 // console.log(updateObject(pickle));
 
-// function personMaker() {
-//   var person = {
-//     firstName: 'Paul',
-//     lastName: 'Jones',
-//     fullName() {
-//       console.log(`${this.firstName} ${this.lastName}`);
-//     },
-//   };
-//   return person;
-// }
+function personMaker() {
+  let person = {
+    firstName: 'Paul',
+    lastName: 'Jones',
+    fullName() {
+      console.log(`${this.firstName} ${this.lastName}`);
+    },
+  };
+  return person;
+}
 
-// let character = personMaker();
-// console.log(character.fullName());
+let character = personMaker();
+console.log(personMaker());
+character.fullName();

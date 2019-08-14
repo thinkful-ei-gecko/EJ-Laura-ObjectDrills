@@ -91,7 +91,7 @@ Robert.sayHello();
 
 // console.log(makeStudentReport(data));
 
-  
+
 //   function enrollInSummerSchool(students) {
 //     students.forEach(student =>  student.status = "In summer school");
 //     return students;
@@ -136,7 +136,7 @@ Robert.sayHello();
 //     age: 34,
 //     city: 'Chicago',
 //   };
-  
+
 //   // running the function with `objectB` and `expectedKeys`
 //   // should return `false`
 //   const objectB = {
@@ -144,9 +144,9 @@ Robert.sayHello();
 //     age: 33,
 //     city: 'Peoria',
 //   };
-  
+
 //   const expectedKeys = ['id', 'name', 'age', 'city'];
-  
+
 //   function validateKeys(object, expectedKeys) {
 //     let currentKeys = Object.keys(object);
 

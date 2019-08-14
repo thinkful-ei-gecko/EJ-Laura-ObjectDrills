@@ -91,31 +91,42 @@ Robert.sayHello();
 
 // console.log(makeStudentReport(data));
 
-
-
   
-  function enrollInSummerSchool(students) {
-    students.forEach(student =>  student.status = "In summer school");
-    return students;
-  }
+//   function enrollInSummerSchool(students) {
+//     students.forEach(student =>  student.status = "In summer school");
+//     return students;
+//   }
 
-  const studentData = [
-    {
-      name: 'Tim',
-      status: 'Current student',
-      course: 'Biology',
-    },
-    {
-      name: 'Sue',
-      status: 'Withdrawn',
-      course: 'Mathematics',
-    },
-    {
-      name: 'Liz',
-      status: 'On leave',
-      course: 'Computer science',
-    },
-  ];
+//   const studentData = [
+//     {
+//       name: 'Tim',
+//       status: 'Current student',
+//       course: 'Biology',
+//     },
+//     {
+//       name: 'Sue',
+//       status: 'Withdrawn',
+//       course: 'Mathematics',
+//     },
+//     {
+//       name: 'Liz',
+//       status: 'On leave',
+//       course: 'Computer science',
+//     },
+//   ];
 
 
-console.log(enrollInSummerSchool(studentData));
+// console.log(enrollInSummerSchool(studentData));
+
+// function findById(items, idNum) {
+//   return scratchData.find(item => item.id === idNum);
+// }
+
+// const scratchData = [
+//   { id: 22, foo: 'bar' },
+//   { id: 28, foo: 'bizz' },
+//   { id: 19, foo: 'bazz' },
+// ];
+
+// console.log(findById(scratchData, 28));
+

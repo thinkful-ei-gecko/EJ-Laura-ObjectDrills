@@ -179,14 +179,21 @@ Robert.sayHello();
 // console.log(loaf);
 // loaf.hydration();
 
-let coolObject = {
-    foo: 59,
-    bar: 22,
-    fum: 38,
-    quux: 42,
-    spam: 99
-}
+// let coolObject = {
+//   foo: 59,
+//   bar: 22,
+//   fum: 38,
+//   quux: 42,
+//   spam: 99
+// }
 
-for (let key in coolObject) {
-    console.log(`${key} ${coolObject[key]}`);
-}
+// for (let key in coolObject) {
+//   console.log(`${key} ${coolObject[key]}`);
+// }
+
+// let food = {
+//   meals: ['breakfast', 'second breakfast', 'elevenses', 'lunch', 'afternoon tea', 'dinner', 'supper']
+// }
+
+// console.log(`${food.meals[3]} is the fourth meal.`);
+

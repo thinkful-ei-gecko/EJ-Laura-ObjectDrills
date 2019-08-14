@@ -44,3 +44,19 @@ Robert.sayHello();
 
 // let character = personMaker();
 // console.log(character.fullName());
+
+const sampleObj = {
+    foo: 'foo',
+    bar: 'bar',
+    bizz: 'bizz',
+    bang: 'bang',
+  };
+  
+  function keyDeleter(obj) {
+    delete obj.foo;
+    delete obj.bar;
+    return obj;
+  }
+
+  keyDeleter(sampleObj);
+  console.log(sampleObj);

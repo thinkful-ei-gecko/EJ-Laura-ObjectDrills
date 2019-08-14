@@ -42,13 +42,9 @@ function personMaker() {
   return person;
 }
 
-<<<<<<< HEAD
 let character = personMaker();
 console.log(personMaker());
 character.fullName();
-=======
-// let character = personMaker();
-// console.log(character.fullName());
 
 const sampleObj = {
     foo: 'foo',
@@ -65,4 +61,3 @@ const sampleObj = {
 
   keyDeleter(sampleObj);
   console.log(sampleObj);
->>>>>>> e98ea7f7bbc286c2a77bffc505cf012dc6ea3ce1
